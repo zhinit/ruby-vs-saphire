@@ -1,0 +1,1 @@
+Use uv for all Python dependency and environment management: `uv add`, `uv add --dev`, `uv sync`, and `uv run`. Do not introduce requirements.txt or pip-based setup instructions. Commit uv.lock when it can be generated and validated.

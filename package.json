@@ -1,0 +1,13 @@
+{
+  "name": "ruby-vs-sapphire",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "npm --prefix ruby-sapphire-prototype run build",
+    "preview": "npm --prefix ruby-sapphire-prototype run preview",
+    "dev:frontend": "npm --prefix ruby-sapphire-prototype run dev",
+    "dev:backend": "uv run uvicorn backend.main:app --reload --port 8000",
+    "test": "uv run pytest"
+  }
+}

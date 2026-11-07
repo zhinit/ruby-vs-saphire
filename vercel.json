@@ -1,0 +1,4 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm --prefix ruby-sapphire-prototype install --legacy-peer-deps && npm run build"
+}
